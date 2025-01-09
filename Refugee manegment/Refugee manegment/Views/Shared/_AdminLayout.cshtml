@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Refugee Management</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS and Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #eef2f3;
+        }
+
+        .navbar {
+            background-color: #007bff;
+        }
+
+        .navbar-brand {
+            color: #fff !important;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link {
+            color: #f8f9fa !important;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 250px;
+            background-color: #343a40;
+            color: white;
+            padding-top: 20px;
+        }
+
+            .sidebar .nav-link {
+                color: #dcdcdc;
+            }
+
+                .sidebar .nav-link:hover {
+                    color: #fff;
+                    background-color: #495057;
+                }
+
+        .content-area {
+            margin-left: 270px;
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Addresses" asp-action="Index"><i class="bi bi-house-door-fill"></i> Addresses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Employements" asp-action="Index"><i class="bi bi-briefcase-fill"></i> Employments</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="HealthRecords" asp-action="Index"><i class="bi bi-heart-pulse-fill"></i> Health Records</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Sponsorships" asp-action="Index"><i class="bi bi-hand-thumbs-up-fill"></i> Sponsorships</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Main content area -->
+    <div class="content-area">
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" asp-area="" asp-controller="Refugees" asp-action="Index">Refugee Management</a>
+                    <a class="navbar-brand" asp-area="" asp-controller="Addresses" asp-action="Index">Addresses</a>
+                    <a class="navbar-brand" asp-area="" asp-controller="Employments" asp-action="Index">Employments</a>
+                    <a class="navbar-brand" asp-area="" asp-controller="HealthRecords" asp-action="Index">Health Records</a>
+                    <a class="navbar-brand" asp-area="" asp-controller="Refugees" asp-action="Index">Sponsorships</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                           
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main content -->
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                &copy; 2025 - Refugee Management - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

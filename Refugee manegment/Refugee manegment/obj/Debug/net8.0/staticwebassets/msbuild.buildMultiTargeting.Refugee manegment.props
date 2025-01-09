@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Refugee manegment.props" />
+</Project>

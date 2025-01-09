@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Refugee Management System";
+    Layout = "_AdminLayout";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<h2>Refugee Index</h2>
+
+@if (Model == null || !Model.Any())
+{
+    <p>No refugees found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Refugee Name</th>
+                <th>Address</th>
+                <th>Employment Status</th>
+                <th>Health Record</th>
+                <th>Registration</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var refugee in Model)
+            {
+                <tr>
+                    <td>@refugee.Name</td>
+                    <td>
+                        @(refugee.Address?.Street ?? "N/A"),
+                        @(refugee.Address?.City ?? "N/A")
+                    </td>
+                    <td>@(refugee.Employment?.Status ?? "N/A")</td>
+                    <td>@(refugee.HealthyRecord?.Condition ?? "N/A")</td>
+                    <td>@(refugee.Sponsorship?.SponsorName ?? "N/A")</td>
+                    <td>
+                        <a href="@Url.Action("Edit", "Refugee", new { id = refugee.Id })" class="btn btn-primary">Edit</a>
+                        <a href="@Url.Action("Details", "Refugee", new { id = refugee.Id })" class="btn btn-info">Details</a>
+                        <a href="@Url.Action("Delete", "Refugee", new { id = refugee.Id })" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+
+
+
+        </tbody>
+    </table>
+}

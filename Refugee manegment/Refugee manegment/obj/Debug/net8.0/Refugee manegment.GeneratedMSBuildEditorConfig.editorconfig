@@ -1,0 +1,169 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Refugee_manegment
+build_property.RootNamespace = Refugee_manegment
+build_property.ProjectDir = C:\Users\pc\source\repos\Refugee manegment\Refugee manegment\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\pc\source\repos\Refugee manegment\Refugee manegment
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Addresses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Addresses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Addresses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Addresses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Addresses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkcmVzc2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Employements/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZW1lbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Employements/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZW1lbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Employements/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZW1lbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Employements/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZW1lbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Employements/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZW1lbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/HealthRecords/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoUmVjb3Jkc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/HealthRecords/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoUmVjb3Jkc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/HealthRecords/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoUmVjb3Jkc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/HealthRecords/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoUmVjb3Jkc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/HealthRecords/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoUmVjb3Jkc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Refugees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVmdWdlZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Refugees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVmdWdlZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Refugees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVmdWdlZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Refugees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVmdWdlZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Refugees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVmdWdlZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Sponsorships/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvbnNvcnNoaXBzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Sponsorships/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvbnNvcnNoaXBzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Sponsorships/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvbnNvcnNoaXBzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Sponsorships/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvbnNvcnNoaXBzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Sponsorships/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvbnNvcnNoaXBzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/source/repos/Refugee manegment/Refugee manegment/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wzthnlhwmd

@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Refugee_manegment.Models.HealthRecord>
+
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicalCondition)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfRecord)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TreatmentDetails)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Refugee)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MedicalCondition)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfRecord)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TreatmentDetails)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Refugee.Id)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>

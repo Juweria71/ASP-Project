@@ -1,0 +1,60 @@
+﻿@model Refugee_manegment.Models.Sponsorship
+
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+
+<h4>Sponsorship</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="RefugeeId" class="control-label"></label>
+                <select asp-for="RefugeeId" class ="form-control" asp-items="ViewBag.RefugeeId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="SponsorName" class="control-label"></label>
+                <input asp-for="SponsorName" class="form-control" />
+                <span asp-validation-for="SponsorName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SponsorContact" class="control-label"></label>
+                <input asp-for="SponsorContact" class="form-control" />
+                <span asp-validation-for="SponsorContact" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SponsorshipStartDate" class="control-label"></label>
+                <input asp-for="SponsorshipStartDate" class="form-control" />
+                <span asp-validation-for="SponsorshipStartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SponsorshipEndDate" class="control-label"></label>
+                <input asp-for="SponsorshipEndDate" class="form-control" />
+                <span asp-validation-for="SponsorshipEndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+</body>
+</html>

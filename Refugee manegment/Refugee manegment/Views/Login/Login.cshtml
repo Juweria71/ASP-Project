@@ -1,0 +1,58 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Dashboard | Sign In</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/Admin/img/svg/logo.svg" type="image/x-icon">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="~/Admin/css/style.min.css">
+</head>
+
+<body>
+    <div class="layer"></div>
+    <main class="page-center">
+        <article class="sign-up">
+            <h1 class="sign-up__title">Welcome back!</h1>
+            <p class="sign-up__subtitle">Sign in to your account to continue</p>
+
+            <!-- Display error message if available -->
+            @if (ViewData["ErrorMessage"] != null)
+            {
+                <p class="error-message text-danger">@ViewData["ErrorMessage"]</p>
+            }
+
+            <form class="sign-up-form form" asp-controller="Login" asp-action="Login" method="post">
+                @Html.AntiForgeryToken()
+                <label class="form-label-wrapper">
+                    <p class="form-label">Username</p>
+                    <input class="form-input" type="text" name="username" placeholder="Enter your username" required>
+                </label>
+                <label class="form-label-wrapper">
+                    <p class="form-label">Password</p>
+                    <input class="form-input" type="password" name="password" placeholder="Enter your password" required>
+                </label>
+                <a class="link-info forget-link" href="#">Forgot your password?</a>
+                <label class="form-checkbox-wrapper">
+                    <input class="form-checkbox" type="checkbox" name="rememberMe">
+                    <span class="form-checkbox-label">Remember me next time</span>
+                </label>
+                <button class="form-btn primary-default-btn transparent-btn" type="submit">Sign in</button>
+            </form>
+        </article>
+    </main>
+    <!-- Chart library -->
+    <script src="~/Admin/plugins/chart.min.js"></script>
+    <!-- Icons library -->
+    <script src="~/Admin/plugins/feather.min.js"></script>
+    <!-- Custom scripts -->
+    <script src="~/Admin/js/script.js"></script>
+</body>
+
+</html>
